@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0%;
+}
+h1 {
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#name-color{
+    color: orangered;
+}
+.half-wide{
+    width: 50%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.half-wide img{
+    width: 80%;
+}
+#hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(green, cyan);
+    padding: 10px 40px;
+    border-radius: 3px;
+    color:cornsilk;
+    font-weight: 600;
+}
+.dream-div p{
+    margin-right: 20%;
+}
+.exp-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flexible-exp{
+    display: flex;
+}
+.exp-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    box-shadow: 10px 10px 40px darkblue;
+}
+#border-full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(orangered, red);
+    border-image-slice: 1;
+}
+#border-baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#foot{
+    text-align: center;
+    margin-top: 5%;
+}
